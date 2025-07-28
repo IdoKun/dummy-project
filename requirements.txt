@@ -3,6 +3,4 @@ fastapi
 uvicorn
 python-dotenv
 streamlit
-
-#for streamlit cloud
 -e .
