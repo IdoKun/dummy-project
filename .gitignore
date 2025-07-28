@@ -1,5 +1,2 @@
 raw_data/
-Dockerfile
-.envrc
 .env
-Docker
