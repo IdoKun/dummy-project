@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: package
+Version: 0.0.1
+Requires-Dist: scikit-learn
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: python-dotenv
+Requires-Dist: streamlit
+Dynamic: requires-dist

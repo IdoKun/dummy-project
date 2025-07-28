@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from utils import from_number_to_flower
+from package.utils import from_number_to_flower
 
 
  # Change this URL to the one of your API
