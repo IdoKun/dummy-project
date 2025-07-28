@@ -3,4 +3,5 @@ fastapi
 uvicorn
 python-dotenv
 streamlit
+
 -e .
