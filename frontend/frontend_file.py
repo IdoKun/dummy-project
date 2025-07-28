@@ -1,5 +1,7 @@
 import streamlit as st
 import requests
+from utils import from_number_to_flower
+
 
  # Change this URL to the one of your API
 API_URL = "https://dummy-project-363582497954.europe-west1.run.app"
@@ -23,4 +25,4 @@ params = {
 
 response = requests.get(url, params=params).json()
 
-st.write(f"This flower belongs to category {str(response['prediction'])}")
+st.write(f"This flower belongs to category {str(from_number_to_flower(response['prediction']))}")
